@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&family=Prociono&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+
+body{
+    background-color: #D36824;
+    color: white;
+    max-height: fit-content;
+    overflow: hidden;
+}
+
+/* Navigation and logo */
+
+.nav-bar{
+    background-image: url(/top-bg-shape.png);
+    height: 380px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo{
+
+    margin: 75px;
+
+}
+
+.logo p{
+    display: inline;
+    font-family: 'Prociono', serif;
+    font-size: 60px;
+    margin-left: 15px;
+}
+
+.logo img{
+    width: 96px;
+    height: fit-content;
+}
+
+.nav{
+    margin: 68px;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style:none ;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 95px;
+}
+
+.nav ul li a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav ul li a:hover{
+
+    text-decoration: underline;
+
+}
+
+/* Content */
+
+.content{
+    display: flex;
+    
+}
+
+.burger{
+
+    position: absolute;
+    left: 70em;
+    bottom: 6em;
+}
+
+.Discount{
+
+    font-family: 'Port Lligat Sans', sans-serif;
+    position: relative;
+    bottom: 29px;
+    left: 5em;
+}
+
+.number{
+
+    margin: 5em 0;
+
+}
+
+.percent{
+
+    width: 272px;
+    height: 140px;
+    border: 1px solid white;
+    background-color: white;
+    color: #FF0000;
+    padding: 17px 35px;
+    border-radius: 17px;
+    margin-right: 46px;
+}
+
+button{
+
+    border-radius: 35px;
+    padding: 20px 1em;
+    margin: 1em 0;
+    background-color: #F7C832;
+    
+}
+
+button:hover{
+
+    box-shadow: none;
+    background-color: #F7C800;
+
+}
+
+
+/* Bg-bottom image */
+
+footer{
+
+    margin-top: -17em;
+
+}
